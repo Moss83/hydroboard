@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.cluster import KMeans
 
-K = 6
+K = 5
 UBICACION = "C:\\Users\\mauri\\OneDrive\\Escritorio\\UADE\\5° Año\\Proyecto Final de Ingeniería Informática\\hydroboard\\M_Datos-Colon.csv"
 
 def k_means(humedad, precipitacion):
