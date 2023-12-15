@@ -9,7 +9,7 @@ k = int(input("Ingrese cantidad de clusters: "))
 humedad = float(input("Ingrese la humedad mensual (%): "))
 precipitacion = float(input("Ingrese la precipitación mensual (mm): "))
 
-ubicacion="C:\\Users\\mauri\\OneDrive\\Escritorio\\UADE\\5° Año\\Proyecto Final de Ingeniería Informática\\hydroboard\\M_Datos-Colon.csv"
+ubicacion="C:\\Users\\mauri\\OneDrive\\Escritorio\\UADE\\5° Año\\Proyecto Final de Ingeniería Informática\\hydroboard\\Data\\M_Datos-Colon.csv"
 data = pd.read_csv(ubicacion, sep=";", decimal=".")
 
 points = data[['Humedad', 'Precipitacion']].values
